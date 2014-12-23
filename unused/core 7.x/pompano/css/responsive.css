@@ -1,0 +1,336 @@
+@media only screen and (min-width: 1200px) and (max-width: 1920px) {
+}
+
+/** 
+
+Note: Design for a width of 960px
+
+**/
+
+
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
+
+/* Nodes */
+
+.links a {
+  margin-bottom: 3px;
+}
+
+/* Menu */
+
+.region-main-menu ul.menu li a {	 
+  padding: 0 10px;
+  font-size: 14px;
+}
+
+/* Portfolio Rollover Elements */
+
+.view-pompano-portfolio.four-column .portfolio-title {
+  font-size: 14px;
+  padding: 10px 10px 5px 10px;
+}
+
+.view-pompano-portfolio.four-column .portfolio-excerpt {
+  padding: 0 10px;
+  font-size: 11px;
+  line-height: 12px;
+}
+
+.view-pompano-portfolio.four-column .portfolio-view a {
+  padding: 5px 10px;
+  font-size: 11px;
+}
+
+}
+
+/** 
+
+Note: Design for a width of 768px
+
+**/
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+.site-slogan {
+  display: none;	
+}
+
+/* Nodes */
+
+.links a {
+  margin-bottom: 5px;
+}
+
+/* Menu */
+
+.region-main-menu ul.menu li a {	 
+  padding: 0 10px;
+  font-size: 14px;
+}
+
+/* Portfolio Rollover Elements */
+
+.view-pompano-portfolio.four-column .portfolio-title {
+  font-size: 12px;
+  padding: 10px 10px 5px 10px;
+}
+
+.view-pompano-portfolio.four-column .portfolio-excerpt {
+  padding: 0 10px;
+  font-size: 10px;
+  line-height: 10px;
+}
+
+.view-pompano-portfolio.four-column .portfolio-view a {
+  padding: 5px 10px;
+  font-size: 10px;
+}
+
+}
+
+/** 
+Note: Design for a width of 300px
+**/
+
+@media only screen and (max-width: 767px) {	
+
+.header-wrapper, .social-wrapper, .preface-wrapper, .main-content-wrapper, .postscript-wrapper, .footer-wrapper {
+  float: left;
+  width: 100%;
+}
+
+.header-wrapper {
+  padding-top: 10px;
+  height: auto;
+  background-image: none;
+  text-align: center;
+}
+
+hgroup {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.site-logo, .site-name, .site-slogan {
+  float: none;
+  padding: 0;
+  margin: 5px 0;
+  line-height: 1.0em;
+  text-align: center;
+}
+
+.site-logo {
+  width: 100%;
+  text-align: center;
+}
+
+.site-logo img {
+  display: inline-block;
+  margin: 0 auto;	
+}
+
+.region-search-box {
+  float: none;
+  padding-left: 0;	
+}
+
+.region-search-box .content {
+  text-align: center;
+}
+
+#search-block-form {
+  display: inline-block;	
+  margin: 0 auto;
+}
+
+.social-wrapper {
+  padding: 15px 0;
+}
+
+.social {
+  display: none;
+}
+
+.node h2.title  {
+  font-size: 14px;
+  line-height: 1.0em;
+}
+
+.node h2.title a {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.0em;
+}
+
+.node .links a {
+  display: block;
+  padding: 0 10px;
+  margin-bottom: 5px;
+  font-size: 12px;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 30px;
+  text-shadow: 1px 1px #000;
+  box-shadow: 1px 1px 1px #999;
+  background: url(../images/style1/main-menu-bg-hover.png) top left repeat-x;
+  border-radius: 3px;
+}
+
+.view-pompano-portfolio.four-column .views-row, .view-pompano-portfolio.three-column .views-row, .view-pompano-portfolio.two-column .views-row   {
+  float: none;
+  width: 100%;
+}
+
+}
+
+/** 
+Note: Design for a width of 420px
+**/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}
+
+
+
+/* #######################################################################
+
+	meanMenu
+	--------
+	
+	To be used with jquery.meanmenu.js by Chris Wharton (http://www.meanthemes.com/plugins/meanmenu/)
+
+####################################################################### */
+
+
+/* hide the link until viewport size is reached */
+a.meanmenu-reveal {
+display: none;
+}
+
+/* when under viewport size, .mean-container is added to body */
+.mean-container .mean-bar { 
+width: 100%;
+position: relative;
+background: #000;
+padding: 4px 0;
+min-height: 42px;
+z-index: 999999;
+}
+.mean-container a.meanmenu-reveal {
+width: 22px;
+height: 22px;
+padding: 13px 13px 11px 13px;
+position: absolute;
+top: 0;
+right: 0;
+cursor: pointer;
+color: #fff;
+text-decoration: none;
+font-size: 16px;
+text-indent: -9999em;
+line-height: 22px;
+font-size: 1px;
+display: block;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 700;
+}
+.mean-container a.meanmenu-reveal span {
+display: block;
+background: #fff;
+height: 3px;
+margin-top: 3px;
+}
+.mean-container .mean-nav { 
+float: left;
+width: 100%;
+background: #111;
+margin-top: 42px;
+}
+.mean-container .mean-nav ul {
+padding: 0;
+margin: 0;
+width: 100%;
+list-style-type: none;
+}
+.mean-container .mean-nav ul li {
+position: relative;
+float: left;
+width: 100%;
+}
+.mean-container .mean-nav ul li a {
+display: block;
+float: left;
+width: 90%;
+padding: 1em 5%;
+margin: 0;
+text-align: left;
+color: #fff;
+border-bottom: 1px solid #383838;
+border-bottom: 1px solid rgba(255,255,255,0.5);
+text-decoration: none;
+text-transform: uppercase;
+}
+.mean-container .mean-nav ul li li a {
+width: 80%;
+padding: 1em 10%;
+border-bottom: 1px solid #f1f1f1;
+border-bottom: 1px solid rgba(255,255,255,0.25);
+opacity: 0.75; 
+filter: alpha(opacity=75);
+text-shadow: none !important;
+visibility: visible;
+}
+.mean-container .mean-nav ul li.mean-last a {
+border-bottom: none;
+margin-bottom: 0;
+}
+.mean-container .mean-nav ul li li li a {
+width: 70%;
+padding: 1em 15%;
+}
+.mean-container .mean-nav ul li li li li a {
+width: 60%;
+padding: 1em 20%;
+}
+.mean-container .mean-nav ul li li li li li a {
+width: 50%;
+padding: 1em 25%;
+}
+.mean-container .mean-nav ul li a:hover { 
+background: #252525;
+background: rgba(255,255,255,0.1); 
+}
+.mean-container .mean-nav ul li a.mean-expand {
+width: 26px;
+height: 26px;
+border: none !important;
+padding: 12px !important;
+text-align: center;
+position: absolute;
+right: 0;
+top: 0;
+z-index: 2;
+font-weight: 700;
+}
+.mean-container .mean-nav ul li a.mean-expand:hover {
+background: none;
+}
+.mean-container .mean-push { 
+float: left;
+width: 100%;
+padding: 0;
+margin: 0;
+clear: both; 
+}
+.mean-nav .wrapper {
+width: 100%;
+padding: 0;
+margin: 0;
+}
+
+
+body {
+  width: 100%;	
+}
+
